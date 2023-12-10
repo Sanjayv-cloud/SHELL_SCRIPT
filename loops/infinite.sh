@@ -4,6 +4,7 @@ while true
 do
    temp=$(mktemp "loop_XXXXXX.txt")
    echo "file created:$temp"
+   sleep 3
 done
 #--------------------------------------------------------------------------------------------------------------------#
 # Common options for mktemp include:
