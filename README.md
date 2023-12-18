@@ -75,8 +75,53 @@ _URLs and Email Addresses_
 
 link using label  
 
-[link]
+[link][1]
+
+
+[1]: https://academy.selfmade.ninja/ "SNA"
 
 
 
-    
+# table
+
+| Syntax | Description |
+| --- | ----------- |
+| Header | Title |
+| Paragraph | Text |
+
+## align-table
+
+| Syntax      | Description | Test Text     |
+| :---        |    :----:   |          ---: |
+| Header      | Title       | Here's this   |
+| Paragraph   | Text        | And more      |
+
+| Syntax | Description| day|
+|:---    | :-----:|      ---:|
+| Header | Title | mon|
+| Paragraph | Text | tue|
+
+ (&#124;)
+
+ french code block
+ -------
+
+ ```json
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 25
+}
+```
+
+Here's a simple footnote,[^1] and here's a longer one.[^bignote]
+
+[^1]: This is the first footnote.
+
+[^bignote]: Here's one with multiple paragraphs and code.
+
+    Indent paragraphs to include them in the footnote.
+
+    `{ my code }`
+
+    Add as many paragraphs as you like.
